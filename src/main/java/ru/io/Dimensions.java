@@ -4,15 +4,19 @@ public class Dimensions {
     public static void main(String[] args) {
 
         boolean isEve00 = isEven(6);
+
         System.out.println(isEve00);
+
         int i = calculateSum(5, 6);
+
         System.out.println(i);
 
         System.out.println(sum(4, 5));
 
         int[] numbers = {10, 20, 30, 40, 50};
-        // Добавьте выражение numbers[2] в "Watches" для отслеживания значения элемента с индексом 2
         printNumbers(numbers);
+
+        // Добавьте выражение numbers[2] в "Watches" для отслеживания значения элемента с индексом 2
 
     }
     public static void printNumbers(int[] numbers) {
